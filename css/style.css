@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #898f99;
+  margin-top: 100px;
+  margin-bottom: 55px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0ec8cb;
+  margin-bottom: 55px;
+}
+
+.subtitle {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  display: block;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-bottom: 99px;
+}
+
+.blocks {
+  background: #f7f7f7;
+  border: 1px solid #ececec;
+  height: 392px;
+}
+
+.block--one {
+  background: #f7f7f7;
+  border-right: 1px solid #ececec;
+  display: block;
+  width: 100%;
+  padding: 30px 32px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.block--two {
+  background: #f7f7f7;
+  border-right: 1px solid #ececec;
+  display: block;
+  padding: 30px 43px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.block--three {
+  background: #f7f7f7;
+  border-right: 1px solid #ececec;
+  display: block;
+  padding: 30px 43px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.block--four {
+  background: #f7f7f7;
+  display: block;
+  padding: 30px 43px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.col-md-3 .image {
+  width: 63.94px;
+  margin: 0 auto;
+  display: block;
+  flex: 0 1 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-3 .image i.fa {
+  font-size: 60px;
+}
+
+.col-md-3 h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1b1b1b;
+  /* margin-bottom: 40px; */
+  flex: 1 1 20%;
+}
+
+.col-md-3 p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #777777;
+}
+
+.row {
+  height: 100%;
+}
+
+.block-title {
+  flex: 0 1 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 1 40%;
+}
+
+.block--one:hover {
+  background-color: #0EC8CB;
+  color: white;
+}
+
+.block--two:hover {
+  background-color: #0EC8CB;
+  color: white;
+}
+
+.block--three:hover {
+  background-color: #0EC8CB;
+  color: white;
+}
+
+.block--four:hover {
+  background-color: #0EC8CB;
+  color: white;
+}
+
+.block-title h2:hover {
+  color: white;
+}
+
+.block-descr p:hover {
+  color: white;
+}
