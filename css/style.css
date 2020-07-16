@@ -7,18 +7,19 @@
 .first {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 15px;
   text-align: center;
   text-transform: uppercase;
   color: #898f99;
   margin-top: 100px;
-  margin-bottom: 55px;
+  margin-bottom: 44px;
 }
 
 .title {
   font-family: "Montserrat", sans-serif;
-  font-size: 48px;
+  font-weight: 400;
+  font-size: 43px;
   line-height: 59px;
   text-align: center;
   text-transform: uppercase;
@@ -28,7 +29,7 @@
 
 .subtitle {
   font-family: "PT Sans", sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 23px;
   text-align: center;
   text-transform: uppercase;
@@ -95,7 +96,7 @@
   align-items: center;
 }
 
-.col-md-3 .image i.fa {
+.col-md-3 .image i {
   font-size: 60px;
 }
 
@@ -137,30 +138,40 @@
   flex: 0 1 40%;
 }
 
-.block--one:hover {
-  background-color: #0EC8CB;
+.block:hover {
+  background-color: #0ec8cb;
+}
+
+.block:hover .block-title h2,
+.block:hover .block-descr p,
+.block:hover .image i {
+  color: #fff;
+}
+
+/* .block--one:hover {
+  background-color: #0ec8cb;
   color: white;
 }
 
 .block--two:hover {
-  background-color: #0EC8CB;
+  background-color: #0ec8cb;
   color: white;
 }
 
 .block--three:hover {
-  background-color: #0EC8CB;
+  background-color: #0ec8cb;
   color: white;
 }
 
 .block--four:hover {
-  background-color: #0EC8CB;
+  background-color: #0ec8cb;
   color: white;
-}
+} */
 
-.block-title h2:hover {
+/* .block-title h2:hover {
   color: white;
-}
+} */
 
-.block-descr p:hover {
+/* .block-descr p:hover {
   color: white;
-}
+} */
