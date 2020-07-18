@@ -82,7 +82,7 @@ html {
   .container-sm,
   .container-md,
   .container-lg {
-    max-width: 960px;
+    max-width: 970px;
   }
 }
 
@@ -93,7 +93,7 @@ html {
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: 1140px;
+    max-width: 970px;
   }
 }
 
